@@ -1,4 +1,6 @@
 {
+"update_url": "https://clients2.google.com/service/update2/crx",
+
   "author": "https://metamask.io",
   "background": {
     "page": "background.html",
@@ -78,8 +80,7 @@
     "activeTab",
     "webRequest",
     "*://*.eth/",
-    "notifications",
-    "webRequestBlocking"
+    "notifications"
   ],
   "short_name": "__MSG_appName__",
   "web_accessible_resources": [
